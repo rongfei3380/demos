@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F6FD5CF2226EB5C00BBB27A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FD5CE2226EB5C00BBB27A /* AppDelegate.m */; };
+		5F6FD5D22226EB5C00BBB27A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FD5D12226EB5C00BBB27A /* ViewController.m */; };
+		5F6FD5D52226EB5C00BBB27A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6FD5D32226EB5C00BBB27A /* Main.storyboard */; };
+		5F6FD5D72226EB5E00BBB27A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6FD5D62226EB5E00BBB27A /* Assets.xcassets */; };
+		5F6FD5DA2226EB5E00BBB27A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6FD5D82226EB5E00BBB27A /* LaunchScreen.storyboard */; };
+		5F6FD5DD2226EB5E00BBB27A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FD5DC2226EB5E00BBB27A /* main.m */; };
+		5F6FD5E72226EB5E00BBB27A /* viewReusePoolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FD5E62226EB5E00BBB27A /* viewReusePoolTests.m */; };
+		5F6FD5F22226EB5E00BBB27A /* viewReusePoolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FD5F12226EB5E00BBB27A /* viewReusePoolUITests.m */; };
+		5F6FD6012226EEED00BBB27A /* ViewReusePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FD6002226EEED00BBB27A /* ViewReusePool.m */; };
+		5F6FD6042226F35A00BBB27A /* IndexedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FD6032226F35A00BBB27A /* IndexedTableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F6FD5E32226EB5E00BBB27A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F6FD5C22226EB5C00BBB27A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F6FD5C92226EB5C00BBB27A;
+			remoteInfo = viewReusePool;
+		};
+		5F6FD5EE2226EB5E00BBB27A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F6FD5C22226EB5C00BBB27A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F6FD5C92226EB5C00BBB27A;
+			remoteInfo = viewReusePool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F6FD5CA2226EB5C00BBB27A /* viewReusePool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viewReusePool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6FD5CD2226EB5C00BBB27A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F6FD5CE2226EB5C00BBB27A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F6FD5D02226EB5C00BBB27A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F6FD5D12226EB5C00BBB27A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F6FD5D42226EB5C00BBB27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F6FD5D62226EB5E00BBB27A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F6FD5D92226EB5E00BBB27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F6FD5DB2226EB5E00BBB27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6FD5DC2226EB5E00BBB27A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F6FD5E22226EB5E00BBB27A /* viewReusePoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viewReusePoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6FD5E62226EB5E00BBB27A /* viewReusePoolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewReusePoolTests.m; sourceTree = "<group>"; };
+		5F6FD5E82226EB5E00BBB27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6FD5ED2226EB5E00BBB27A /* viewReusePoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viewReusePoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6FD5F12226EB5E00BBB27A /* viewReusePoolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewReusePoolUITests.m; sourceTree = "<group>"; };
+		5F6FD5F32226EB5E00BBB27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F6FD5FF2226EEED00BBB27A /* ViewReusePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewReusePool.h; sourceTree = "<group>"; };
+		5F6FD6002226EEED00BBB27A /* ViewReusePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewReusePool.m; sourceTree = "<group>"; };
+		5F6FD6022226F35A00BBB27A /* IndexedTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexedTableView.h; sourceTree = "<group>"; };
+		5F6FD6032226F35A00BBB27A /* IndexedTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexedTableView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F6FD5C72226EB5C00BBB27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6FD5DF2226EB5E00BBB27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6FD5EA2226EB5E00BBB27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F6FD5C12226EB5C00BBB27A = {
+			isa = PBXGroup;
+			children = (
+				5F6FD5CC2226EB5C00BBB27A /* viewReusePool */,
+				5F6FD5E52226EB5E00BBB27A /* viewReusePoolTests */,
+				5F6FD5F02226EB5E00BBB27A /* viewReusePoolUITests */,
+				5F6FD5CB2226EB5C00BBB27A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F6FD5CB2226EB5C00BBB27A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F6FD5CA2226EB5C00BBB27A /* viewReusePool.app */,
+				5F6FD5E22226EB5E00BBB27A /* viewReusePoolTests.xctest */,
+				5F6FD5ED2226EB5E00BBB27A /* viewReusePoolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F6FD5CC2226EB5C00BBB27A /* viewReusePool */ = {
+			isa = PBXGroup;
+			children = (
+				5F6FD5CD2226EB5C00BBB27A /* AppDelegate.h */,
+				5F6FD5CE2226EB5C00BBB27A /* AppDelegate.m */,
+				5F6FD5D02226EB5C00BBB27A /* ViewController.h */,
+				5F6FD5D12226EB5C00BBB27A /* ViewController.m */,
+				5F6FD5D32226EB5C00BBB27A /* Main.storyboard */,
+				5F6FD5D62226EB5E00BBB27A /* Assets.xcassets */,
+				5F6FD5D82226EB5E00BBB27A /* LaunchScreen.storyboard */,
+				5F6FD5DB2226EB5E00BBB27A /* Info.plist */,
+				5F6FD5DC2226EB5E00BBB27A /* main.m */,
+				5F6FD5FF2226EEED00BBB27A /* ViewReusePool.h */,
+				5F6FD6002226EEED00BBB27A /* ViewReusePool.m */,
+				5F6FD6022226F35A00BBB27A /* IndexedTableView.h */,
+				5F6FD6032226F35A00BBB27A /* IndexedTableView.m */,
+			);
+			path = viewReusePool;
+			sourceTree = "<group>";
+		};
+		5F6FD5E52226EB5E00BBB27A /* viewReusePoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F6FD5E62226EB5E00BBB27A /* viewReusePoolTests.m */,
+				5F6FD5E82226EB5E00BBB27A /* Info.plist */,
+			);
+			path = viewReusePoolTests;
+			sourceTree = "<group>";
+		};
+		5F6FD5F02226EB5E00BBB27A /* viewReusePoolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F6FD5F12226EB5E00BBB27A /* viewReusePoolUITests.m */,
+				5F6FD5F32226EB5E00BBB27A /* Info.plist */,
+			);
+			path = viewReusePoolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F6FD5C92226EB5C00BBB27A /* viewReusePool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6FD5F62226EB5E00BBB27A /* Build configuration list for PBXNativeTarget "viewReusePool" */;
+			buildPhases = (
+				5F6FD5C62226EB5C00BBB27A /* Sources */,
+				5F6FD5C72226EB5C00BBB27A /* Frameworks */,
+				5F6FD5C82226EB5C00BBB27A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = viewReusePool;
+			productName = viewReusePool;
+			productReference = 5F6FD5CA2226EB5C00BBB27A /* viewReusePool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F6FD5E12226EB5E00BBB27A /* viewReusePoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6FD5F92226EB5E00BBB27A /* Build configuration list for PBXNativeTarget "viewReusePoolTests" */;
+			buildPhases = (
+				5F6FD5DE2226EB5E00BBB27A /* Sources */,
+				5F6FD5DF2226EB5E00BBB27A /* Frameworks */,
+				5F6FD5E02226EB5E00BBB27A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F6FD5E42226EB5E00BBB27A /* PBXTargetDependency */,
+			);
+			name = viewReusePoolTests;
+			productName = viewReusePoolTests;
+			productReference = 5F6FD5E22226EB5E00BBB27A /* viewReusePoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F6FD5EC2226EB5E00BBB27A /* viewReusePoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6FD5FC2226EB5E00BBB27A /* Build configuration list for PBXNativeTarget "viewReusePoolUITests" */;
+			buildPhases = (
+				5F6FD5E92226EB5E00BBB27A /* Sources */,
+				5F6FD5EA2226EB5E00BBB27A /* Frameworks */,
+				5F6FD5EB2226EB5E00BBB27A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F6FD5EF2226EB5E00BBB27A /* PBXTargetDependency */,
+			);
+			name = viewReusePoolUITests;
+			productName = viewReusePoolUITests;
+			productReference = 5F6FD5ED2226EB5E00BBB27A /* viewReusePoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F6FD5C22226EB5C00BBB27A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = chengfeir;
+				TargetAttributes = {
+					5F6FD5C92226EB5C00BBB27A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5F6FD5E12226EB5E00BBB27A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5F6FD5C92226EB5C00BBB27A;
+					};
+					5F6FD5EC2226EB5E00BBB27A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5F6FD5C92226EB5C00BBB27A;
+					};
+				};
+			};
+			buildConfigurationList = 5F6FD5C52226EB5C00BBB27A /* Build configuration list for PBXProject "viewReusePool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F6FD5C12226EB5C00BBB27A;
+			productRefGroup = 5F6FD5CB2226EB5C00BBB27A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F6FD5C92226EB5C00BBB27A /* viewReusePool */,
+				5F6FD5E12226EB5E00BBB27A /* viewReusePoolTests */,
+				5F6FD5EC2226EB5E00BBB27A /* viewReusePoolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F6FD5C82226EB5C00BBB27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6FD5DA2226EB5E00BBB27A /* LaunchScreen.storyboard in Resources */,
+				5F6FD5D72226EB5E00BBB27A /* Assets.xcassets in Resources */,
+				5F6FD5D52226EB5C00BBB27A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6FD5E02226EB5E00BBB27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6FD5EB2226EB5E00BBB27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F6FD5C62226EB5C00BBB27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6FD5D22226EB5C00BBB27A /* ViewController.m in Sources */,
+				5F6FD6042226F35A00BBB27A /* IndexedTableView.m in Sources */,
+				5F6FD5DD2226EB5E00BBB27A /* main.m in Sources */,
+				5F6FD5CF2226EB5C00BBB27A /* AppDelegate.m in Sources */,
+				5F6FD6012226EEED00BBB27A /* ViewReusePool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6FD5DE2226EB5E00BBB27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6FD5E72226EB5E00BBB27A /* viewReusePoolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F6FD5E92226EB5E00BBB27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6FD5F22226EB5E00BBB27A /* viewReusePoolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F6FD5E42226EB5E00BBB27A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F6FD5C92226EB5C00BBB27A /* viewReusePool */;
+			targetProxy = 5F6FD5E32226EB5E00BBB27A /* PBXContainerItemProxy */;
+		};
+		5F6FD5EF2226EB5E00BBB27A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F6FD5C92226EB5C00BBB27A /* viewReusePool */;
+			targetProxy = 5F6FD5EE2226EB5E00BBB27A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F6FD5D32226EB5C00BBB27A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F6FD5D42226EB5C00BBB27A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F6FD5D82226EB5E00BBB27A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F6FD5D92226EB5E00BBB27A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F6FD5F42226EB5E00BBB27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F6FD5F52226EB5E00BBB27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F6FD5F72226EB5E00BBB27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = viewReusePool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengfeir.viewReusePool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F6FD5F82226EB5E00BBB27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = viewReusePool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengfeir.viewReusePool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F6FD5FA2226EB5E00BBB27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = viewReusePoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengfeir.viewReusePoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/viewReusePool.app/viewReusePool";
+			};
+			name = Debug;
+		};
+		5F6FD5FB2226EB5E00BBB27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = viewReusePoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengfeir.viewReusePoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/viewReusePool.app/viewReusePool";
+			};
+			name = Release;
+		};
+		5F6FD5FD2226EB5E00BBB27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = viewReusePoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengfeir.viewReusePoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = viewReusePool;
+			};
+			name = Debug;
+		};
+		5F6FD5FE2226EB5E00BBB27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = viewReusePoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chengfeir.viewReusePoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = viewReusePool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F6FD5C52226EB5C00BBB27A /* Build configuration list for PBXProject "viewReusePool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6FD5F42226EB5E00BBB27A /* Debug */,
+				5F6FD5F52226EB5E00BBB27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F6FD5F62226EB5E00BBB27A /* Build configuration list for PBXNativeTarget "viewReusePool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6FD5F72226EB5E00BBB27A /* Debug */,
+				5F6FD5F82226EB5E00BBB27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F6FD5F92226EB5E00BBB27A /* Build configuration list for PBXNativeTarget "viewReusePoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6FD5FA2226EB5E00BBB27A /* Debug */,
+				5F6FD5FB2226EB5E00BBB27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F6FD5FC2226EB5E00BBB27A /* Build configuration list for PBXNativeTarget "viewReusePoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6FD5FD2226EB5E00BBB27A /* Debug */,
+				5F6FD5FE2226EB5E00BBB27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F6FD5C22226EB5C00BBB27A /* Project object */;
+}
