@@ -25,6 +25,7 @@
     [_cornerButton setBackgroundColor:[UIColor blueColor]];
     [_cornerButton addTarget:self action:@selector(clickCornerButton:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:_cornerButton];
+    _cornerButton._testKey = @"key test";
     
     _expandButton = [ExpandButton buttonWithType:UIButtonTypeCustom];
     _expandButton.frame = CGRectMake(100, 300, 120, 120);
@@ -36,6 +37,17 @@
 
 - (void)clickCornerButton:(id)sender {
     NSLog(@"click");
+    
+    NSLog(@"test testKey is %@", [_cornerButton valueForKey:@"testKey"]);
+    NSLog(@"test key is %@", [_cornerButton valueForKey:@"testKey"]);
+//    
+//    NSLog(@"test _testKey is %@", [_cornerButton valueForKey:@"_testKey"]);
+//    NSLog(@"test _isTestKey is %@", [_cornerButton valueForKey:@"_isTestKey"]);
+    
+    
+    
+    
+    
 }
 
 @end

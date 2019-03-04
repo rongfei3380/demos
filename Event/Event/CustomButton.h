@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 //控制响应范围 为button内接圆
 @interface CustomButton : UIButton
 
+@property(nonatomic, copy) NSString *_testKey;
+
 @end
 
 NS_ASSUME_NONNULL_END
