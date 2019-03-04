@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSString (WeakTimer)
+@interface NSTimer (WeakTimer)
 
 + (NSTimer *)scheduledWeakTimerWithTimeInterval:(NSTimeInterval)interval
                                          target:(id)aTarget

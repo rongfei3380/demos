@@ -6,7 +6,7 @@
 //  Copyright © 2019 chengfeir. All rights reserved.
 //
 
-#import "NSString+WeakTimer.h"
+#import "NSTimer+WeakTimer.h"
 
 @interface TimerWeakObject : NSObject
 

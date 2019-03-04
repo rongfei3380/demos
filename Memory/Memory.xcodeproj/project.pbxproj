@@ -15,7 +15,7 @@
 		5FDF8ADC222CC27100F9073B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF8ADB222CC27100F9073B /* main.m */; };
 		5FDF8AE6222CC27100F9073B /* MemoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF8AE5222CC27100F9073B /* MemoryTests.m */; };
 		5FDF8AF1222CC27100F9073B /* MemoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF8AF0222CC27100F9073B /* MemoryUITests.m */; };
-		5FDF8B00222CC30D00F9073B /* NSString+WeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF8AFF222CC30D00F9073B /* NSString+WeakTimer.m */; };
+		5FDF8B00222CC30D00F9073B /* NSTimer+WeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF8AFF222CC30D00F9073B /* NSTimer+WeakTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		5FDF8AEC222CC27100F9073B /* MemoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FDF8AF0222CC27100F9073B /* MemoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryUITests.m; sourceTree = "<group>"; };
 		5FDF8AF2222CC27100F9073B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FDF8AFE222CC30D00F9073B /* NSString+WeakTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+WeakTimer.h"; sourceTree = "<group>"; };
-		5FDF8AFF222CC30D00F9073B /* NSString+WeakTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+WeakTimer.m"; sourceTree = "<group>"; };
+		5FDF8AFE222CC30D00F9073B /* NSTimer+WeakTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+WeakTimer.h"; sourceTree = "<group>"; };
+		5FDF8AFF222CC30D00F9073B /* NSTimer+WeakTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+WeakTimer.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +113,8 @@
 				5FDF8AD7222CC27100F9073B /* LaunchScreen.storyboard */,
 				5FDF8ADA222CC27100F9073B /* Info.plist */,
 				5FDF8ADB222CC27100F9073B /* main.m */,
-				5FDF8AFE222CC30D00F9073B /* NSString+WeakTimer.h */,
-				5FDF8AFF222CC30D00F9073B /* NSString+WeakTimer.m */,
+				5FDF8AFE222CC30D00F9073B /* NSTimer+WeakTimer.h */,
+				5FDF8AFF222CC30D00F9073B /* NSTimer+WeakTimer.m */,
 			);
 			path = Memory;
 			sourceTree = "<group>";
@@ -270,7 +270,7 @@
 				5FDF8AD1222CC26F00F9073B /* ViewController.m in Sources */,
 				5FDF8ADC222CC27100F9073B /* main.m in Sources */,
 				5FDF8ACE222CC26F00F9073B /* AppDelegate.m in Sources */,
-				5FDF8B00222CC30D00F9073B /* NSString+WeakTimer.m in Sources */,
+				5FDF8B00222CC30D00F9073B /* NSTimer+WeakTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
