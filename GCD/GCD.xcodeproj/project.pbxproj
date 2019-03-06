@@ -16,6 +16,7 @@
 		5FDF8B68222FAE4000F9073B /* GCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF8B67222FAE4000F9073B /* GCDTests.m */; };
 		5FDF8B73222FAE4000F9073B /* GCDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF8B72222FAE4000F9073B /* GCDUITests.m */; };
 		5FDF8B83222FAE7200F9073B /* UserCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF8B82222FAE7200F9073B /* UserCenter.m */; };
+		5FDF8B87222FD3D500F9073B /* GroupObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDF8B86222FD3D500F9073B /* GroupObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		5FDF8B74222FAE4000F9073B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FDF8B81222FAE7200F9073B /* UserCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserCenter.h; sourceTree = "<group>"; };
 		5FDF8B82222FAE7200F9073B /* UserCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserCenter.m; sourceTree = "<group>"; };
+		5FDF8B85222FD3D500F9073B /* GroupObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupObject.h; sourceTree = "<group>"; };
+		5FDF8B86222FD3D500F9073B /* GroupObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,7 @@
 		5FDF8B4D222FAE3D00F9073B /* GCD */ = {
 			isa = PBXGroup;
 			children = (
+				5FDF8B84222FD3A300F9073B /* Group */,
 				5FDF8B80222FAE5300F9073B /* Barrier */,
 				5FDF8B4E222FAE3D00F9073B /* AppDelegate.h */,
 				5FDF8B4F222FAE3D00F9073B /* AppDelegate.m */,
@@ -143,6 +147,15 @@
 				5FDF8B82222FAE7200F9073B /* UserCenter.m */,
 			);
 			path = Barrier;
+			sourceTree = "<group>";
+		};
+		5FDF8B84222FD3A300F9073B /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				5FDF8B85222FD3D500F9073B /* GroupObject.h */,
+				5FDF8B86222FD3D500F9073B /* GroupObject.m */,
+			);
+			path = Group;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +292,7 @@
 				5FDF8B5E222FAE4000F9073B /* main.m in Sources */,
 				5FDF8B50222FAE3D00F9073B /* AppDelegate.m in Sources */,
 				5FDF8B83222FAE7200F9073B /* UserCenter.m in Sources */,
+				5FDF8B87222FD3D500F9073B /* GroupObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
