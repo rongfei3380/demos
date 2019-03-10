@@ -19,7 +19,7 @@ static BOOL runAlways = YES;
         @synchronized (self) {
             if (thread == nil) {
 //                线程创建
-                thread = [[NSThread alloc] initWithTarget:self selector:@selector(runRequest) object:nil];
+                thread = [[NSThread alloc] initWithTarget:self selector:@selector(runAlways) object:nil];
                 [thread setName:@"com.imooc.thread"];
 //                线程启动
                 [thread start];
@@ -28,6 +28,16 @@ static BOOL runAlways = YES;
     }
     return thread;
 }
+
+- (void)runAlways {
+//    第一种方式添加Source
+    [MCObject runRequest];
+//    第二种方式 添加port
+    [MCObject runWithPort];
+//    第三种方式 添加 timer
+    [MCObject runWithTimer];
+}
+
 
 + (void)runRequest {
 //    创建一个Source
@@ -49,5 +59,24 @@ static BOOL runAlways = YES;
     CFRunLoopRemoveSource(CFRunLoopGetCurrent(), source, kCFRunLoopDefaultMode);
     CFRelease(source);
 }
+
++ (void)runWithPort {
+//    添加port实时监听
+    [[NSRunLoop currentRunLoop] addPort:[NSPort port] forMode:NSDefaultRunLoopMode];
+//    添加runLoop
+    [[NSRunLoop currentRunLoop] run];
+}
+
+- (void)timerForAlways {
+    
+}
+
++ (void)runWithTimer {
+    NSRunLoop *runloop = [NSRunLoop currentRunLoop];
+    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(timerForAlways) userInfo:nil repeats:YES];
+    [runloop addTimer:timer forMode:NSDefaultRunLoopMode];
+    [runloop run];
+}
+
 
 @end
