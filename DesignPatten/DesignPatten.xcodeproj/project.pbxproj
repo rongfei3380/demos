@@ -23,6 +23,8 @@
 		5F19A5B822363C5700C9C632 /* BaseObjectB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F19A5B722363C5700C9C632 /* BaseObjectB.m */; };
 		5F19A5BB22363C8C00C9C632 /* ObjectB1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F19A5BA22363C8C00C9C632 /* ObjectB1.m */; };
 		5F19A5BE22363C9B00C9C632 /* ObjectB2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F19A5BD22363C9B00C9C632 /* ObjectB2.m */; };
+		5F19A5C222366CE900C9C632 /* Target.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F19A5C122366CE900C9C632 /* Target.m */; };
+		5F19A5C522366D0100C9C632 /* CoolTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F19A5C422366D0100C9C632 /* CoolTarget.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,10 @@
 		5F19A5BA22363C8C00C9C632 /* ObjectB1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectB1.m; sourceTree = "<group>"; };
 		5F19A5BC22363C9B00C9C632 /* ObjectB2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectB2.h; sourceTree = "<group>"; };
 		5F19A5BD22363C9B00C9C632 /* ObjectB2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectB2.m; sourceTree = "<group>"; };
+		5F19A5C022366CE900C9C632 /* Target.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target.h; sourceTree = "<group>"; };
+		5F19A5C122366CE900C9C632 /* Target.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target.m; sourceTree = "<group>"; };
+		5F19A5C322366D0100C9C632 /* CoolTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoolTarget.h; sourceTree = "<group>"; };
+		5F19A5C422366D0100C9C632 /* CoolTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoolTarget.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,7 @@
 		5F19A5722235630600C9C632 /* DesignPatten */ = {
 			isa = PBXGroup;
 			children = (
+				5F19A5BF22366CB200C9C632 /* Adapter */,
 				5F19A5A922363BC300C9C632 /* Bridge */,
 				5F19A5A52235631600C9C632 /* Responder */,
 				5F19A5732235630600C9C632 /* AppDelegate.h */,
@@ -186,6 +193,17 @@
 				5F19A5BD22363C9B00C9C632 /* ObjectB2.m */,
 			);
 			path = Bridge;
+			sourceTree = "<group>";
+		};
+		5F19A5BF22366CB200C9C632 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				5F19A5C022366CE900C9C632 /* Target.h */,
+				5F19A5C122366CE900C9C632 /* Target.m */,
+				5F19A5C322366D0100C9C632 /* CoolTarget.h */,
+				5F19A5C422366D0100C9C632 /* CoolTarget.m */,
+			);
+			path = Adapter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,9 +338,11 @@
 			files = (
 				5F19A5B822363C5700C9C632 /* BaseObjectB.m in Sources */,
 				5F19A5B222363C3300C9C632 /* ObjectA1.m in Sources */,
+				5F19A5C222366CE900C9C632 /* Target.m in Sources */,
 				5F19A5782235630600C9C632 /* ViewController.m in Sources */,
 				5F19A5BB22363C8C00C9C632 /* ObjectB1.m in Sources */,
 				5F19A5832235630800C9C632 /* main.m in Sources */,
+				5F19A5C522366D0100C9C632 /* CoolTarget.m in Sources */,
 				5F19A5AC22363BE900C9C632 /* BaseObjectA.m in Sources */,
 				5F19A5AF22363C1000C9C632 /* BridgeDemo.m in Sources */,
 				5F19A5A82235636400C9C632 /* BusinessObject.m in Sources */,

@@ -36,11 +36,7 @@
      */
 //    if (1) {
         NSLog(@"%@ 处理任务", self);
-    if (self.nextBusiness) {
-        completion(NO);
-    } else {
-        completion(YES);
-    }
+//        completion(YES);
 //    } else {
 //        completion(NO);
 //    }

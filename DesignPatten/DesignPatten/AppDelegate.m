@@ -18,19 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    BusinessObject *objectA = [[BusinessObject alloc] init];
-    BusinessObject *objectB = [[BusinessObject alloc] init];
-    BusinessObject *objectC = [[BusinessObject alloc] init];
-    
-    objectA.nextBusiness = objectB;
-    objectB.nextBusiness = objectC;
-    
-    [objectA handle:^(BusinessObject * _Nullable handler, BOOL handled) {
-        if (handled) {
-            NSLog(@"责任链完成");
-        }
-    }];
-    
+        
     return YES;
 }
 
